@@ -1,0 +1,364 @@
+/* css of first part */
+.header {
+  background-color: rgba(255, 144, 14, 0.1);
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.link {
+  text-decoration: none;
+}
+.nav a {
+  text-decoration: none;
+  color: black;
+  margin-left: 25px;
+}
+.article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 60px;
+  margin-right: 300px;
+  margin-left: 300px;
+  align-items: center;
+  padding-bottom: 40px;
+}
+.article h1 {
+  font-family: Work Sans;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 75px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.article p {
+  color: #727272;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+#btn {
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 180px;
+  height: 64px;
+  left: 870px;
+  top: 463px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  border: #ffffff;
+  background: #ff900e;
+  border-radius: 8px;
+  color: #ffffff;
+}
+#banner {
+  width: 1240px;
+  height: 700px;
+  left: 240px;
+}
+.team {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 73px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+.team-part {
+  margin-left: 250px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 24px;
+}
+.every-team {
+  width: 342px;
+  height: 342px;
+  left: 301px;
+  top: 1407px;
+  border-radius: 8px;
+}
+.black {
+  font-family: Work Sans;
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 53px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  font-family: Work Sans;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 53px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.orange {
+  font-family: Work Sans;
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 53px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  font-family: Work Sans;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 53px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  color: orange;
+}
+.gray {
+  color: #727272;
+  font-family: Work Sans;
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 53px;
+  letter-spacing: 0em;
+  text-align: left;
+  font-family: Work Sans;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 53px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.team-details p {
+  color: #727272;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.btn-2 {
+  width: 180px;
+  height: 64px;
+  left: 1082px;
+  top: 1849px;
+  background-color: orange;
+  border: none;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+  border-radius: 8px;
+}
+.feature {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 110px;
+  margin-left: 150px;
+  margin-right: 110px;
+  grid-gap: 40px;
+}
+#architect {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin-right: 40px;
+}
+.border {
+  display: flex;
+}
+.vl {
+  border-left: 4px solid #ff900e;
+  height: 106px;
+  width: 5px;
+  left: 227px;
+  top: 2268px;
+}
+#headline {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #131313;
+}
+#feature-p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+}
+.box {
+  width: 586px;
+  height: 131px;
+  left: 206px;
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgba(29, 18, 18, 0.06);
+  border-radius: 8px;
+}
+.box h3 {
+  padding-top: 30px;
+  padding-left: 30px;
+}
+.box p {
+  padding-left: 30px;
+}
+#btn-3 {
+  background-color: #ff900e;
+  height: 200px;
+  width: 342px;
+  left: 846px;
+  top: 3127px;
+  border-radius: 8px;
+  border: none;
+  margin-left: 900px;
+}
+#btn-3 h1 {
+  color: #ffffff;
+  height: 109px;
+  width: 258px;
+  left: 888px;
+  top: 3173px;
+}
+h1 > small {
+  color: #ffffff;
+  height: 109px;
+  width: 258px;
+  left: 888px;
+  top: 3173px;
+}
+#btn-3:hover {
+  background-color: rgb(196, 156, 105);
+  margin-top: -200px;
+  transition: 2s;
+  transform: 2s;
+}
+.award {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.award div {
+  width: 241px;
+  border-radius: 8px;
+  border: 2px solid orange;
+  border-radius: 3px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.award div > h1,
+p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon {
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+#some {
+  font-family: "Work Sans";
+  font-style: normal;
+  padding-left: 150px;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #131313;
+}
+small {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+  padding-left: 150px;
+}
+.sponsors {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  color: #727272;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+}
+.conclusion {
+  align-items: center;
+  background-color: #fff4e7;
+  margin: 140px;
+  padding: 30px 20px;
+  border-radius: 5px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #424242;
+}
+.last {
+  margin-top: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.last h1 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #131313;
+}
+.last span {
+  width: 542px;
+  height: 52px;
+  left: 689px;
+  top: 4162px;
+  color: #727272;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+}
+.extra {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  flex: 1;
+  padding: 80px;
+  border-radius: 5px;
+  background-color: rgb(252, 249, 245);
+  color: #727272;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+}
+.social {
+  display: flex;
+  justify-content: space-around;
+}
